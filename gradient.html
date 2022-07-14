@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .radial{
+        height: 200px;
+        width: 400px;
+        border: 1px solid black;
+        background: conic-gradient(red, yellow, green, blue);
+    }
+    .repeat{
+        height: 200px;
+        width: 400px;
+        border: 1px solid black;
+        background: repeating-linear-gradient(
+            to top left, red, blue
+        );
+
+
+    }
+    .radial1{
+        height: 200px;
+        width: 400px;
+        border: 1px solid black;
+        background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    }
+</style>
+<body>
+    <div class="radial">hello</div>
+
+<div class="repeat"></div>
+<div class="radial1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eaque dolorum vitae molestiae! Ea, aperiam corporis. Quidem ea 
+         aut consequuntur dolores itaque iure neque, iste natus ratione tem
+         pore in doloribus deleniti!</p>
+</div>
+
+</body>
+</html>
