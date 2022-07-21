@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        animation-duration: 3s;
+        animation-name: slide;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes slide {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+
+
+    }
+
+    div {
+        animation-name: animation;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @keyframes animation {
+        from {
+            background-color: blue;
+            width: 800px;
+            top: 20px;
+        }
+
+        to {
+            background-color: brown;
+            width: 50px;
+            top: 100px;
+
+        }
+
+
+    }
+</style>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Consequuntur necessitatibus laudantium laborum nemo vel assumenda <br>
+        sapiente delectus magni beatae quisquam officia dignissimos, no
+        strum in commodi dolorem placeat obcaecati deleniti sint. Lorembr <br>
+        ipsum dolor sit amet consectetur adipisicing elit. Sapiente as
+        periores eius, adipisci dignissimos dolorum, quod temporibus qu <br>
+        os facilis nisi accusamus assumenda molestias voluptate illo alia
+        s error? Eveniet cum nostrum esse. Lorem ipsum, dolor sit amet con
+        sectetur adipisicing elit. Quam blanditiis quaerat reprehenderit ven <br>
+        iam, praesentium libero, vel eum cumque, mollitia nostrum pariatur
+        et illum maiores accusamus reiciendis quibusdam deleniti totam ipsam. </p>
+
+    <div><img src="./images/lukas-blazek-UAvYasdkzq8-unsplash.jpg" height="400px" width="400"  alt=""></div>
+
+</body>
+
+</html>
